@@ -27,3 +27,11 @@ Open your terminal and go to the project folder:
 
 ```bash
 cd programming-language-timeline-react
+
+Install the Dependencies
+npm install
+
+Start the Development Server
+npm run dev
+
+Then open your browser and click on the link 
