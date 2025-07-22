@@ -36,11 +36,14 @@ An interactive web app that visualizes the timeline and influence of popular pro
 ```bash
 git clone https://github.com/Nomahk25/programming-language-timeline-react.git
 cd programming-language-timeline-react
-Install the Dependencies
+```
+
+### 2. Install the Dependencies
+```
 npm install
 ```
 
-### 2. Start the Development Server
+### 3. Start the Development Server
 ```
 npm run dev
 ```
