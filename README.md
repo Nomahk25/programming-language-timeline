@@ -3,6 +3,9 @@
 An interactive web app that visualizes the timeline and influence of popular programming languages. Built with **React**, **Vite**, and **Tailwind CSS**.
 
 ---
+## 📸 Screenshot
+
+![App Screenshot](./timeline.png)
 
 ## ✨ Features
 
@@ -19,19 +22,76 @@ An interactive web app that visualizes the timeline and influence of popular pro
 
 ---
 
-## 🛠️ How to Run
+## 🧰 Tech Stack
 
-### 1. Navigate to the Project Directory
+- **Frontend**: React + Vite
+- **Styling**: Tailwind CSS
+- **Data Visualization**: D3.js (or custom SVG rendering)
+- **State Management**: React Hooks
 
-Open your terminal and go to the project folder:
+## 🛠️ Installation & Running Locally
+
+### 1. Clone the Repository
 
 ```bash
+git clone https://github.com/Nomahk25/programming-language-timeline-react.git
 cd programming-language-timeline-react
-
 Install the Dependencies
 npm install
+```
 
-Start the Development Server
+### 2. Start the Development Server
+```
 npm run dev
+```
 
-Then open your browser and click on the link 
+Then open your browser and click on the link : http://localhost:5173
+
+## 📦 Deployment
+
+Deploy easily on:
+
+- Netlify
+- Vercel
+- GitHub Pages (with vite-plugin-gh-pages)
+
+## 🖼️ Data Format (languages.json)
+
+```
+[
+  {
+    "name": "Python",
+    "year": 1991,
+    "paradigm": ["OOP", "Procedural"],
+    "influencedBy": ["ABC", "Modula-3"],
+    "influences": ["Ruby", "Go"]
+  },
+  ...
+]
+```
+
+## ✍️ Author
+
+Nomanguni Khumalo
+📍 Johannesburg, South Africa
+🎓 AI & Robotics Enthusiast
+🔗 LinkedIn • GitHub (Add your links)
+
+## 🤝 Contributing
+
+Feel free to fork the project, add languages, improve visuals, or enhance interactivity.
+
+Ideas:
+
+- Add support for zoomable timelines
+- Expand dataset to include 100+ languages
+- Add search/filter by year or language name
+- Toggle between vertical and horizontal timelines
+
+## 💡 Inspiration
+
+Inspired by the need to explore the rich and interconnected history of programming languages in a visual and interactive way, especially for learners and tech historians.
+
+## 📄 License
+
+This project is licensed under the MIT License.
