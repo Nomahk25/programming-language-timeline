@@ -50,14 +50,6 @@ npm run dev
 
 Then open your browser and click on the link : http://localhost:5173
 
-## 📦 Deployment
-
-Deploy easily on:
-
-- Netlify
-- Vercel
-- GitHub Pages (with vite-plugin-gh-pages)
-
 ## 🖼️ Data Format (languages.json)
 
 ```
