@@ -78,7 +78,6 @@ Deploy easily on:
 Nomanguni Khumalo
 📍 Johannesburg, South Africa
 🎓 AI & Robotics Enthusiast
-🔗 LinkedIn • GitHub (Add your links)
 
 ## 🤝 Contributing
 
